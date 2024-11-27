@@ -1,29 +1,21 @@
-# PROJECT NAME: SPOTS
+# WELCOME TO MY PORTFOLIO!
 
 ##
 
 ### **`DESCRIPTION:`**
 
-### This is an interactive social media web application where users can add and remove photos, like photos of other users, and make a few minor adjustments to their profile.
+### This is an interactive website created to demonstrate a few of my technical skills while also describing who I am and why I'm valuable to any companies seeking my type of talents.
 
 ================================================================================================
 
 ### **`TECHNIQUES AND TECHNOLOGIES:`**
 
-### This application was created using various languages including HTML and CSS. Some highlights of these languages are the grid layout, the scaling in response to changing device viewports, and text overflow hidden through the use of ellipsis.
-
-### Update: Javascript has now been added.
+### This application was created using various languages including HTML, CSS, and Javascript. Some highlights of these languages are the grid layout, the scaling in response to changing device viewports, and text overflow hidden through the use of ellipsis.
 
 ================================================================================================
 
 ### **`DEPLOYMENT:`**
 
-### This website is desployed on GitHub at the following link: [here](https://bigredcoding.github.io/se_project_spots/)
-
-================================================================================================
-
-### **`Video Demonstration:`**
-
-### You can find a detailed video description at the following link: [here](https://drive.google.com/file/d/1K2cllpUiw062y9p_Aigzgfs9FjLcMVPU/view?usp=sharing)
+### This website is desployed on GitHub at the following link: [here](https://bigredcoding.github.io/Portfolio/)
 
 ================================================================================================

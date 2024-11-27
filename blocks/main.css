@@ -1,0 +1,27 @@
+.main {
+  position: relative;
+}
+
+.section__education {
+  background-image: url(../images/blue2.png);
+  min-width: 250px;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section__demonstrations {
+  background-image: url(../images/blue2.png);
+  min-width: 250px;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section__career-goals {
+  background-image: url(../images/blue2.png);
+  min-width: 250px;
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

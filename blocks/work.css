@@ -1,0 +1,96 @@
+.work {
+  background-image: url(../images/blue2.png);
+}
+.work__employer-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.work__list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 230px;
+}
+
+.work__dates {
+  margin: 5px;
+  padding: 5px;
+  background-color: beige;
+  border: 3px black solid;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 220px;
+}
+
+.work__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work__cdawindow-button {
+  background-image: url("../images/cdawindow.png");
+  height: 100px;
+  width: 200px;
+  background-size: cover;
+}
+
+.work__mcdonalds-button {
+  background-image: url("../images/mcdonalds.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__staples-button {
+  background-image: url("../images/staples.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 80px;
+  width: 250px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__super1foods-button {
+  background-image: url("../images/super1foods.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__details {
+  background-image: url("../images/beige1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px black solid;
+  border-radius: 12px;
+  width: 100%;
+  height: fit-content;
+}
+
+.work__details-cdalist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.work__details-cdawindow {
+  position: relative;
+  margin: 20px;
+}
+
+.work__details-cdalist-item {
+  width: 400px;
+}

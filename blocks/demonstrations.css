@@ -1,0 +1,12 @@
+.demonstrations {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.demonstrations__game {
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 16px;
+}

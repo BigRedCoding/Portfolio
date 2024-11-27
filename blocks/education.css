@@ -1,0 +1,12 @@
+.education {
+  padding: 10px;
+  position: relative;
+  background-image: url(../images/blue2.png);
+  background-size: cover;
+  width: 78vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px black solid;
+  border-radius: 12px;
+}
