@@ -1,0 +1,36 @@
+body {
+  background-image: url(../images/blue1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.page {
+  position: relative;
+  left: 20vw;
+  padding-right: 5px;
+}
+
+.page__default-remove {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.click__back-top {
+  position: absolute;
+  right: 20px;
+  color: red;
+  border: 1px black solid;
+  text-decoration: none;
+}
+
+.hide {
+  visibility: hidden;
+}

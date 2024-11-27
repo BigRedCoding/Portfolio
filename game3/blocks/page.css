@@ -1,0 +1,15 @@
+body {
+  width: 100%;
+  overflow: hidden;
+  background: url("../images/space.jpg");
+  background-size: cover;
+}
+.main__canvas {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  border: 2px solid white;
+  background-color: black;
+  overflow: hidden;
+}
