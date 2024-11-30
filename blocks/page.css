@@ -1,0 +1,64 @@
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(../images/blue1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+
+.page {
+  position: sticky;
+  margin: 0 5px;
+}
+
+.page__default-remove {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.click__back-top {
+  position: relative;
+  color: red;
+  border: 1px black solid;
+  text-decoration: none;
+}
+
+.hide {
+  visibility: collapse;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.offset {
+  left: 20vw;
+  max-width: 78vw;
+}
+
+.button__toggle-visibility-expand {
+  position: fixed;
+  top: 50px;
+  left: 0;
+}
+
+.isVisible {
+  visibility: visible;
+  width: fit-content;
+  height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .button__toggle-visibility-expand {
+    top: 100px;
+  }
+}

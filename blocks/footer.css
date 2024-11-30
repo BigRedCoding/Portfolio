@@ -1,0 +1,21 @@
+.footer {
+  margin: 50px 0;
+  padding: 0;
+  position: relative;
+  max-width: 84vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.footer__copyright {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer__update {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}

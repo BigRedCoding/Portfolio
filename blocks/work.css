@@ -1,0 +1,136 @@
+.work {
+  background-image: url(../images/blue2.png);
+  font-size: 16px;
+}
+.work__employer-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.work__list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 230px;
+}
+
+.work__dates {
+  margin: 5px;
+  padding: 5px;
+  background-color: beige;
+  border: 3px black solid;
+  border-radius: 6px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.work__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work__cdawindow-button {
+  background-image: url("../images/cdawindow.png");
+  height: 100px;
+  width: 200px;
+  background-size: cover;
+}
+
+.work__mcdonalds-button {
+  background-image: url("../images/mcdonalds.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 100px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__staples-button {
+  background-image: url("../images/staples.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 80px;
+  width: 250px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__super1foods-button {
+  background-image: url("../images/super1foods.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  border-style: none;
+  background-repeat: no-repeat;
+}
+
+.work__details {
+  background-image: url("../images/beige1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px black solid;
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  height: fit-content;
+  font-size: 20px;
+}
+
+.work__details-title {
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.work__details-cdalist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.work__details-cdawindow {
+  padding: 0 20px;
+}
+
+.work__details-cdalist-item {
+  padding: 0px;
+  margin: 0px;
+  width: 400px;
+}
+
+.work__details-mcdonalds {
+  position: sticky;
+  top: 0;
+  padding: 0 20px;
+}
+.work__details-staples {
+  padding: 0 20px;
+}
+
+.work__details-super1foods {
+  padding: 0 20px;
+}
+
+.work___navigation {
+  padding: 10px 0px 20px 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .work__dates {
+    font-size: 12px;
+  }
+  .work__details-paragraph {
+    font-size: 12px;
+  }
+  .work__details-cdalist {
+    font-size: 12px;
+  }
+}

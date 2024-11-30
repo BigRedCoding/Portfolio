@@ -1,0 +1,28 @@
+.introduction {
+  background-image: url(../images/blue2.png);
+}
+.introduction__content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+}
+
+.introduction__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.introduction__text {
+  width: fit-content;
+  text-wrap: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__text {
+    font-size: 12px;
+  }
+}

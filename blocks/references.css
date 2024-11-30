@@ -1,0 +1,83 @@
+.reference {
+  width: 100%;
+}
+
+.reference__header {
+  display: flex;
+  justify-content: space-around;
+  justify-self: center;
+  width: 600px;
+}
+
+.reference__title {
+  font-size: 36px;
+  font-weight: 700;
+  color: green;
+  text-shadow: 10px 10px red solid;
+}
+
+.reference__button {
+  font-size: 18px;
+  font-weight: 500;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  align-self: center;
+}
+
+.references__list {
+  background-image: url("../images/fabric.jpg");
+  border-radius: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+  list-style: none;
+}
+
+.references__list-item {
+  background-color: rgb(151, 205, 167);
+  margin: 0;
+  padding: 5px;
+  border: 2px black solid;
+  display: flex;
+  width: 280px;
+}
+
+.reference__detail {
+  margin: 0px;
+  padding: 5px 0;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.detail__name {
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .reference__header {
+    width: 250px;
+  }
+  .reference__title {
+    font-size: 18px;
+  }
+  .reference__button {
+    font-size: 12px;
+  }
+  .references__list-item {
+    width: 200px;
+  }
+  .reference__detail {
+    font-size: 12px;
+  }
+  .detail__name {
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: auto;
+  }
+}

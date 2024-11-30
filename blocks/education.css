@@ -1,0 +1,54 @@
+.education {
+  background-image: url(../images/blue2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px black solid;
+  border-radius: 12px;
+}
+
+.education__icons {
+  padding: 5px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.education__icons-item {
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+.education__icons-button {
+  background-image: url("../images/northidaho.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 150px;
+  background-size: contain;
+  border: 2px black solid;
+  background-repeat: no-repeat;
+}
+
+.education__icons-button1 {
+  background-image: url("../images/lewisclark.png");
+  background-color: rgba(0, 0, 0, 0);
+  height: 100px;
+  width: 250px;
+  background-size: contain;
+  border: 2px black solid;
+  background-repeat: no-repeat;
+}
+
+.education__paragraph {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .education__paragraph {
+    font-size: 12px;
+  }
+}

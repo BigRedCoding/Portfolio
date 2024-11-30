@@ -1,0 +1,49 @@
+.demonstrations__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.demonstrations__item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 16px;
+}
+
+.demonstrations__button {
+  background-color: rgb(206, 159, 194);
+  width: 220px;
+  height: 50px;
+  max-width: 220px;
+  min-width: 150px;
+  max-height: 50px;
+  min-height: 50px;
+  text-wrap: nowrap;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.demonstration__description {
+  margin: 0px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .demonstrations__item {
+    flex-direction: column;
+  }
+
+  .demonstrations__button {
+    font-size: 12px;
+  }
+  .demonstration__description {
+    font-size: 12px;
+  }
+}
