@@ -1,51 +1,51 @@
-const mainCanvas = document.querySelector(".main__canvas");
-const canvas = document.getElementById("canvas1");
-const ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+import { canvas, ctx, profileVariables } from "../scripts/utils/constants.js";
+import Maps from "../scripts/maps.js";
+import Character from "./characters/player.js";
 
-let lastTime = 0;
+export let lastTime = 0;
 let gameOver = false;
+let deltaTime;
 
-class Player {
-  constructor() {
-    this.spriteWidth = 100;
-    this.spriteHeight = 100;
-    this.width = 100;
-    this.height = 100;
-    this.x = canvas.width * 0.5;
-    this.y = canvas.height * 0.5 - this.height;
-    this.image = new Image();
-    this.image.src = "./images/raven.png";
-    this.frame = 0;
-    this.maxFrame = 4;
-  }
+export let enemies = [];
+
+export let player = new Character(profileVariables.characterName, "true");
+
+export let currentMap = new Maps(profileVariables.currentMap, enemies);
+
+function spawnMap() {
+  currentMap.drawToCanvas();
+  currentMap._eventHandlers();
 }
 
-class Enemy {
-  constructor() {
-    this.spriteWidth = 100;
-    this.spriteHeight = 100;
-    this.width = 100;
-    this.height = 100;
-    this.x = canvas.width * 0.5;
-    this.y = canvas.height * 0.5 - this.height;
-    this.image = new Image();
-    this.image.src = "./images/raven.png";
-    this.frame = 0;
-    this.maxFrame = 4;
-  }
+function spawnPlayer() {
+  player.draw();
+}
+
+function spawnEnemies() {}
+
+function checkEnemyPositions() {}
+
+function updateStats() {}
+
+function triggerTickProcesses() {
+  updateStats();
+  checkEnemyPositions();
 }
 
 function animate(timeStamp) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  let deltaTime = timeStamp - lastTime;
+  deltaTime = timeStamp - lastTime;
   lastTime = timeStamp;
-  console.log(deltaTime);
-  let deltaTime1;
-  deltaTime1 += deltaTime;
 
   if (!gameOver) requestAnimationFrame(animate);
+  triggerTickProcesses();
 }
 
-animate(0);
+function configStart() {
+  animate(0);
+  spawnMap();
+  spawnPlayer();
+  spawnEnemies();
+}
+
+configStart();

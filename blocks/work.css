@@ -2,6 +2,13 @@
   background-image: url(../images/blue2.png);
   font-size: 16px;
 }
+
+.work__title {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0 30px 0;
+  font-weight: 600;
+}
 .work__employer-list {
   display: flex;
   justify-content: space-evenly;

@@ -6,6 +6,7 @@
 }
 
 .demonstrations__item {
+  background-image: url("../images/whiteblue.avif");
   display: flex;
   align-items: center;
   gap: 20px;

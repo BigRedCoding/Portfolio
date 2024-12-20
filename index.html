@@ -20,7 +20,7 @@
     </style>
   </head>
   <body>
-    <div class="page offset">
+    <div class="page offset hide">
       <header class="page__default-remove header">
         <p class="header__title">WELCOME TO MY PORTFOLIO</p>
         <nav class="header__nav" id="header-nav">
@@ -97,6 +97,7 @@
           <a class="click__back-top" href="#header-nav">Back to top</a>
         </section>
         <section class="section work" id="work-history">
+          <p class="work__title">Work History</p>
           <ul class="work__employer-list page__default-remove">
             <li class="work__list-item">
               <div class="work__item work__CDAWindow">
@@ -148,7 +149,18 @@
                   the phone during my wedding. Considering how hectic their
                   program was prior, I thought it wise to take the opportunity
                   they gave me and find another company to work for. Sure
-                  enough, along came The Coeur d'Alene Window Company.
+                  enough, along came The Coeur d'Alene Window Company, and I am
+                  very grateful they gave me that opportunity.
+                </p>
+                <p class="work__details-paragraph">
+                  Five and a half years allowed me several varieties of
+                  challenging experiences. I was also able to travel to several
+                  states and meet several interesting people. Every week it
+                  seemed there was something new I was learning or doing. I was
+                  also fortunate enough to train several new employees. This
+                  further helped me hone my craft, better understand how to
+                  troubleshoot problems, and find appropriate solutions that I
+                  could explain in a way others could understand.
                 </p>
                 <p class="work__details-paragraph">
                   Probably the number one lesson I learned with this company is
@@ -440,6 +452,18 @@
                 opportunities demonstrated. This project is still in progress.
               </p>
             </div>
+            <div class="demonstrations__item">
+              <button
+                class="demonstrations__button demonstrations__website-button2"
+              >
+                Website: Todo
+              </button>
+              <p class="demonstration__description">
+                This project wasn't about design as it was more about OOP and
+                importing/exporting. Further, the organization and concision
+                taught many commercially-relavent practices.
+              </p>
+            </div>
           </div>
           <a class="click__back-top" href="#header-nav">Back to top</a>
         </section>
@@ -553,10 +577,10 @@
       </main>
       <footer class="footer">
         <p class="footer__copyright">&copy;2024 Brandon Dooley</p>
-        <p class="footer__update">Updated: November 27th, 2024</p>
+        <p class="footer__update">Updated: December 20th, 2024</p>
       </footer>
     </div>
-    <div class="panel">
+    <div class="panel hide">
       <button class="button__toggle-visibility-collapse">
         <img class="arrow" src="./images/leftarrow.png" />Collapse<img
           class="arrow"
@@ -617,6 +641,18 @@
         </div>
       </div>
       <button type="button" class="captcha__close-button">Close</button>
+    </div>
+    <div class="intro page__default-remove">
+      <ul class="intro__items" onload="fadeInAnimation">
+        <li class="intro__item page__default-remove">
+          <p class="intro__paragraph page__default-remove">Welcome...</p>
+        </li>
+        <li class="intro__item page__default-remove">
+          <p class="intro__paragraph2 page__default-remove">
+            (click to continue...)
+          </p>
+        </li>
+      </ul>
     </div>
     <script defer src="./scripts/index.js"></script>
   </body>

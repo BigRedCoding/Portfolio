@@ -1,5 +1,7 @@
-.reference {
-  width: 100%;
+.references {
+  background-image: url("../images/marble.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reference__header {
@@ -27,6 +29,7 @@
 
 .references__list {
   background-image: url("../images/fabric.jpg");
+  border: 5px solid black;
   border-radius: 16px;
   display: flex;
   flex-wrap: wrap;

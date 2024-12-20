@@ -5,6 +5,9 @@ const gameButton2 = document.querySelector(".demonstrations__game-button2");
 const websiteButton1 = document.querySelector(
   ".demonstrations__website-button1"
 );
+const websiteButton2 = document.querySelector(
+  ".demonstrations__website-button2"
+);
 
 const sidePanel = document.querySelector(".panel");
 
@@ -35,9 +38,17 @@ const staplesPage1 = document.querySelector(".work__details-staples");
 const super1foodsPage1 = document.querySelector(".work__details-super1foods");
 const workDetailsTitle = document.getElementById("work-details-title");
 
+const introPanel = document.querySelector(".intro");
+
 let pageTick = 0;
 let companyRefTick = 0;
 let CaptchaConfirm = false;
+
+introPanel.addEventListener("click", () => {
+  introPanel.classList.add("hide");
+  pageMain.classList.remove("hide");
+  sidePanel.classList.remove("hide");
+});
 
 gameButton.addEventListener("click", () => {
   window.open("./game/sampleravens.html", "_blank");
@@ -54,6 +65,13 @@ gameButton2.addEventListener("click", () => {
 websiteButton1.addEventListener("click", () => {
   window.open(
     (URL = "https://bigredcoding.github.io/se_project_spots/"),
+    "_blank"
+  );
+});
+
+websiteButton2.addEventListener("click", () => {
+  window.open(
+    (URL = "https://bigredcoding.github.io/se_project_ToDo/"),
     "_blank"
   );
 });
@@ -200,7 +218,6 @@ function setCaptcha() {
     }
     captchaImage.append(captchaMainText);
     captchaGenerated = true;
-    console.log("test");
   }
 }
 

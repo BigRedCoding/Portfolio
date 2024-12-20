@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  background-image: url(../images/blue1.png);
-  background-size: cover;
+  background-image: url(../images/backgroundgif2.gif);
+  background-size: 100vw;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   scroll-behavior: smooth;
 }
 

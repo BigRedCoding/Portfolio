@@ -1,29 +1,38 @@
-body {
-  width: 100%;
+.main {
+  display: flex;
   overflow: hidden;
-  background: url("../images/space.jpg");
-  background-size: cover;
+  width: 1250px;
+  height: 900px;
 }
+
 .main__div {
-  position: relative;
-  width: 600px;
-  height: 600px;
-  margin: 40px auto;
-  border: 2px solid white;
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border: 2px solid black;
+  background-image: "";
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: no-repeat;
   background-color: black;
   overflow: hidden;
 }
-
-.game__container {
-  position: relative;
-  width: 590px;
-  height: 590px;
-  margin: 5px;
-  outline: 1px solid white;
-
-  transform: scale(3) translateY(50%);
+.main__map-canvas {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  border: 2px solid black;
+  background-image: "";
+  background-position-x: 0;
+  background-position-y: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
-
-.game__container {
-  image-rendering: pixelated;
+.player__div {
+  position: fixed;
+  left: 400px;
+  top: 400px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
 }
