@@ -79,13 +79,13 @@ websiteButton2.addEventListener("click", () => {
 collapseButton.addEventListener("click", () => {
   sidePanel.classList.add("hide");
   pageMain.classList.remove("offset");
-  expandButton.classList.add("isVisible");
+  expandButton.classList.remove("hide");
 });
 
 expandButton.addEventListener("click", () => {
   sidePanel.classList.remove("hide");
   pageMain.classList.add("offset");
-  expandButton.classList.remove("isVisible");
+  expandButton.classList.add("hide");
 });
 
 cdaButton.addEventListener("click", () => {

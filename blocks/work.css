@@ -1,27 +1,39 @@
 .work {
-  background-image: url(../images/blue2.png);
+  background-image: url(../images/skywater.jpg);
   font-size: 16px;
 }
 
 .work__title {
+  background-image: url("../images/glowing.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(6, 126, 255);
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  outline: auto;
+  outline-color: red;
+  border-radius: 8px;
   font-size: 36px;
-  text-align: center;
-  margin: 20px 0 30px 0;
   font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
 }
 .work__employer-list {
+  justify-content: center;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
   list-style: none;
-  gap: 20px;
+  gap: 0;
 }
 
 .work__list-item {
+  padding: 5px;
+  margin: 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 230px;
+  width: fit-content;
+  gap: 0;
 }
 
 .work__dates {
@@ -30,8 +42,10 @@
   background-color: beige;
   border: 3px black solid;
   border-radius: 6px;
+  font-size: 16px;
   font-weight: 600;
   width: fit-content;
+  text-align: center;
 }
 
 .work__item {
@@ -95,12 +109,17 @@
   font-size: 28px;
   font-weight: 600;
   margin: 0;
+  text-align: center;
 }
 
 .work__details-cdalist {
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgba(4, 255, 0, 0.2);
+  font-weight: 500;
 }
 
 .work__details-cdawindow {
@@ -125,12 +144,26 @@
 .work__details-super1foods {
   padding: 0 20px;
 }
+.work__details-paragraph {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgba(4, 255, 0, 0.2);
+  font-weight: 500;
+}
 
 .work___navigation {
   padding: 10px 0px 20px 100px;
 }
 
 @media screen and (max-width: 768px) {
+  .work__title {
+    font-size: 20px;
+  }
+
+  .work__employer-list {
+    justify-content: space-between;
+  }
+
   .work__dates {
     font-size: 12px;
   }
@@ -139,5 +172,11 @@
   }
   .work__details-cdalist {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .work__employer-list {
+    justify-content: center;
   }
 }

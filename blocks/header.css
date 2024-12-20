@@ -4,14 +4,11 @@
   padding: 0;
 }
 .header__title {
-  position: relative;
-  left: 20px;
-  top: 5px;
-  margin: 0;
-  font-size: 48px;
+  font-size: calc(1vw * 4);
   font-weight: 900;
   font-family: "REM", "Times New Roman", Times, serif;
-  text-shadow: 2px 2px coral;
+  text-shadow: 4px 4px coral;
+  text-align: start;
 }
 
 .header__nav {
@@ -20,30 +17,34 @@
 }
 
 .header__links {
-  padding: 20px 0;
+  padding-bottom: 20px;
   list-style: none;
   display: flex;
   text-wrap: nowrap;
   flex-wrap: wrap;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   width: fit-content;
   justify-content: end;
   align-items: end;
   gap: 10px;
-  row-gap: 0;
 }
 
 .header__link {
+  background-image: url("../images/waves.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
   display: flex;
   justify-content: end;
   width: fit-content;
+  font-weight: 600;
 }
 
 .header__link-ref {
   background-color: rgba(0, 0, 0, 0);
   width: fit-content;
-  color: black;
+  color: rgb(255, 128, 0);
   border-radius: 8px;
   padding: 5px;
   margin: 0;
@@ -52,7 +53,8 @@
 
 @media screen and (max-width: 768px) {
   .header__title {
-    font-size: 28px;
+    font-size: 30px;
+    text-align: center;
   }
 }
 

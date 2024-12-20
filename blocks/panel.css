@@ -119,6 +119,12 @@
   padding: 5px;
 }
 
+.button__toggle-visibility-expand {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+}
+
 @media screen and (max-width: 768px) {
   .panel__personal {
     min-width: 100px;

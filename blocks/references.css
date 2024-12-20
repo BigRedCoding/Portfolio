@@ -5,26 +5,37 @@
 }
 
 .reference__header {
+  min-width: 100%;
   display: flex;
-  justify-content: space-around;
-  justify-self: center;
-  width: 600px;
 }
 
 .reference__title {
+  margin: 20px 0;
+  background-image: url("../images/glowing.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(6, 126, 255);
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  outline: auto;
+  outline-color: red;
+  border-radius: 8px;
   font-size: 36px;
-  font-weight: 700;
-  color: green;
-  text-shadow: 10px 10px red solid;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
 }
 
 .reference__button {
+  position: absolute;
+  right: 0;
   font-size: 18px;
   font-weight: 500;
   width: fit-content;
   height: fit-content;
   padding: 5px;
   align-self: center;
+  border-radius: 8px;
 }
 
 .references__list {
@@ -36,6 +47,7 @@
   gap: 20px;
   padding: 10px;
   list-style: none;
+  justify-content: center;
 }
 
 .references__list-item {
@@ -64,10 +76,12 @@
 
 @media screen and (max-width: 768px) {
   .reference__header {
-    width: 250px;
+    width: 80%;
+    flex-direction: column;
   }
+
   .reference__title {
-    font-size: 18px;
+    font-size: 20px;
   }
   .reference__button {
     font-size: 12px;
