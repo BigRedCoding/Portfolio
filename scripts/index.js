@@ -8,6 +8,9 @@ const websiteButton1 = document.querySelector(
 const websiteButton2 = document.querySelector(
   ".demonstrations__website-button2"
 );
+const websiteButton3 = document.querySelector(
+  ".demonstrations__website-button3"
+);
 
 const sidePanel = document.querySelector(".panel");
 
@@ -74,6 +77,13 @@ websiteButton2.addEventListener("click", () => {
     (URL = "https://bigredcoding.github.io/se_project_ToDo/"),
     "_blank"
   );
+});
+
+websiteButton3.addEventListener("click", () => {
+  window.open((URL = "https://www.newsexplorer.justlearning.net"), "_blank");
+});
+websiteButton4.addEventListener("click", () => {
+  window.open((URL = "https://www.bdwtwr.justlearning.net"), "_blank");
 });
 
 collapseButton.addEventListener("click", () => {
